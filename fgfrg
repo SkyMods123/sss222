@@ -1,0 +1,699 @@
+-- Objects
+
+local SkyModsFucker22 = Instance.new("ScreenGui")
+local OpenFrame = Instance.new("Frame")
+local Open = Instance.new("TextButton")
+local ImageLabel = Instance.new("ImageLabel")
+local Main = Instance.new("Frame")
+local Naslov = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local Close = Instance.new("TextButton")
+local PlayerBox = Instance.new("Frame")
+local Home = Instance.new("TextButton")
+local HomeBox = Instance.new("Frame")
+local HomeBox_2 = Instance.new("Frame")
+local HomeBox_3 = Instance.new("Frame")
+local HomeBox_4 = Instance.new("Frame")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextLabel_3 = Instance.new("TextLabel")
+local HomeBox_5 = Instance.new("Frame")
+local TextLabel_4 = Instance.new("TextLabel")
+local TextLabel_5 = Instance.new("TextLabel")
+local TextLabel_6 = Instance.new("TextLabel")
+local HomeBox_6 = Instance.new("Frame")
+local WalkSpeed = Instance.new("TextButton")
+local GravityOFF = Instance.new("TextButton")
+local GravityON = Instance.new("TextButton")
+local JumpPower = Instance.new("TextButton")
+local NoClip = Instance.new("TextButton")
+local GodMode = Instance.new("TextButton")
+local GodMode_2 = Instance.new("TextButton")
+local SwatShield = Instance.new("TextButton")
+local ClickDelete = Instance.new("TextButton")
+local Glider = Instance.new("TextButton")
+local RainbowPath = Instance.new("TextButton")
+local NoDoors = Instance.new("TextButton")
+local InfDonuts = Instance.new("TextButton")
+local Shotgun = Instance.new("TextButton")
+local CarFly = Instance.new("TextButton")
+local InfiniteNitro = Instance.new("TextButton")
+local AK47 = Instance.new("TextButton")
+local Pistol = Instance.new("TextButton")
+local HomeBox_7 = Instance.new("Frame")
+local TextLabel_7 = Instance.new("TextLabel")
+local HomeBox_8 = Instance.new("Frame")
+local JewelryIn = Instance.new("TextButton")
+local JewelryTop = Instance.new("TextButton")
+local MuseumIn = Instance.new("TextButton")
+local MuseumOut = Instance.new("TextButton")
+local HomeBox_9 = Instance.new("Frame")
+local BankFront = Instance.new("TextButton")
+local BankVault = Instance.new("TextButton")
+local TextLabel_8 = Instance.new("TextLabel")
+
+-- Properties
+
+SkyModsFucker22.Name = "Sky Mods Fucker 2.2"
+SkyModsFucker22.Parent = game.CoreGui
+
+OpenFrame.Name = "OpenFrame"
+OpenFrame.Parent = SkyModsFucker22
+OpenFrame.BackgroundColor3 = Color3.new(0.156863, 0.156863, 0.156863)
+OpenFrame.Position = UDim2.new(0, 0, 0.476070523, 0)
+OpenFrame.Size = UDim2.new(0, 123, 0, 36)
+
+Open.Name = "Open"
+Open.Parent = OpenFrame
+Open.BackgroundColor3 = Color3.new(0.172549, 0.160784, 0.141176)
+Open.BorderColor3 = Color3.new(1, 1, 1)
+Open.BorderSizePixel = 0
+Open.Position = UDim2.new(0, 0, 0.252233893, 0)
+Open.Size = UDim2.new(0, 122, 0, 25)
+Open.Font = Enum.Font.SourceSans
+Open.Text = "Open"
+Open.TextColor3 = Color3.new(1, 1, 1)
+Open.TextSize = 22
+Open.TextStrokeColor3 = Color3.new(0.227451, 0.227451, 0.227451)
+Open.MouseButton1Down:connect(function()
+Main.Visible = true
+OpenFrame.Visible = false
+end)
+
+ImageLabel.Parent = OpenFrame
+ImageLabel.BackgroundColor3 = Color3.new(0.211765, 0.211765, 0.211765)
+ImageLabel.BorderColor3 = Color3.new(0.172549, 0.160784, 0.141176)
+ImageLabel.Position = UDim2.new(-0.0406503677, 0, -0.00490891933, 0)
+ImageLabel.Size = UDim2.new(0, 128, 0, 9)
+ImageLabel.Image = "https://cdn.discordapp.com/attachments/573129099778850836/657902431522390066/sss.jpg"
+
+Main.Name = "Main"
+Main.Parent = SkyModsFucker22
+Main.Active = true
+Main.BackgroundColor3 = Color3.new(0.156863, 0.156863, 0.156863)
+Main.BorderColor3 = Color3.new(0.211765, 0.211765, 0.211765)
+Main.BorderSizePixel = 2
+Main.Position = UDim2.new(0.333525419, 0, 0.329752326, 0)
+Main.Size = UDim2.new(0, 663, 0, 339)
+Main.Draggable = true
+Main.Visible = false
+
+Naslov.Name = "Naslov"
+Naslov.Parent = Main
+Naslov.Active = true
+Naslov.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
+Naslov.BorderColor3 = Color3.new(0.211765, 0.211765, 0.211765)
+Naslov.BorderSizePixel = 0
+Naslov.Position = UDim2.new(0.00348250219, 0, 0.00767098507, 0)
+Naslov.Size = UDim2.new(0, 660, 0, 26)
+
+TextLabel.Parent = Naslov
+TextLabel.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.372883856, 0, -0.0712420791, 0)
+TextLabel.Size = UDim2.new(0, 181, 0, 23)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "Sky  Mods  Fucker"
+TextLabel.TextColor3 = Color3.new(1, 1, 1)
+TextLabel.TextSize = 19
+
+Close.Name = "Close"
+Close.Parent = Main
+Close.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
+Close.BorderSizePixel = 0
+Close.Position = UDim2.new(0.941814601, 0, 0.0139611168, 0)
+Close.Size = UDim2.new(0, 39, 0, 20)
+Close.Font = Enum.Font.SourceSans
+Close.Text = "X"
+Close.TextColor3 = Color3.new(1, 1, 1)
+Close.TextSize = 20
+Close.TextStrokeColor3 = Color3.new(1, 1, 1)
+Close.MouseButton1Down:connect(function()
+OpenFrame.Visible = true
+Main.Visible = false
+end)
+
+PlayerBox.Name = "PlayerBox"
+PlayerBox.Parent = Main
+PlayerBox.Active = true
+PlayerBox.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
+PlayerBox.BorderColor3 = Color3.new(0.211765, 0.211765, 0.211765)
+PlayerBox.BorderSizePixel = 3
+PlayerBox.Position = UDim2.new(0.300859571, 0, 0.107073188, 0)
+PlayerBox.Size = UDim2.new(0, 345, 0, 273)
+PlayerBox.Visible = false
+
+Home.Name = "Home"
+Home.Parent = PlayerBox
+Home.BackgroundColor3 = Color3.new(0.211765, 0.211765, 0.211765)
+Home.BorderColor3 = Color3.new(0.211765, 0.211765, 0.211765)
+Home.Position = UDim2.new(0.314242303, 0, 0.23227936, 0)
+Home.Size = UDim2.new(0, 110, 0, 26)
+Home.Font = Enum.Font.SourceSans
+Home.Text = "Home"
+Home.TextColor3 = Color3.new(1, 1, 1)
+Home.TextSize = 17
+
+HomeBox.Name = "HomeBox"
+HomeBox.Parent = Main
+HomeBox.Active = true
+HomeBox.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
+HomeBox.BorderColor3 = Color3.new(0.211765, 0.211765, 0.211765)
+HomeBox.BorderSizePixel = 3
+HomeBox.Position = UDim2.new(0.519026577, 0, 0.114524387, 0)
+HomeBox.Size = UDim2.new(0, 148, 0, 290)
+
+HomeBox_2.Name = "HomeBox"
+HomeBox_2.Parent = HomeBox
+HomeBox_2.Active = true
+HomeBox_2.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
+HomeBox_2.BorderColor3 = Color3.new(0.211765, 0.211765, 0.211765)
+HomeBox_2.BorderSizePixel = 3
+HomeBox_2.Position = UDim2.new(0.00675678253, 0, -0.00155925751, 0)
+HomeBox_2.Size = UDim2.new(0, 147, 0, 24)
+
+HomeBox_3.Name = "HomeBox"
+HomeBox_3.Parent = Main
+HomeBox_3.Active = true
+HomeBox_3.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
+HomeBox_3.BorderColor3 = Color3.new(0.211765, 0.211765, 0.211765)
+HomeBox_3.BorderSizePixel = 3
+HomeBox_3.Position = UDim2.new(0.262861103, 0, 0.113883592, 0)
+HomeBox_3.Size = UDim2.new(0, 154, 0, 289)
+
+HomeBox_4.Name = "HomeBox"
+HomeBox_4.Parent = HomeBox_3
+HomeBox_4.Active = true
+HomeBox_4.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
+HomeBox_4.BorderColor3 = Color3.new(0.211765, 0.211765, 0.211765)
+HomeBox_4.BorderSizePixel = 3
+HomeBox_4.Position = UDim2.new(0, 0, -0.00107884896, 0)
+HomeBox_4.Size = UDim2.new(0, 153, 0, 26)
+
+TextLabel_2.Parent = HomeBox_3
+TextLabel_2.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Size = UDim2.new(0, 152, 0, 25)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "Teleports"
+TextLabel_2.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_2.TextSize = 17
+
+TextLabel_3.Parent = HomeBox_3
+TextLabel_3.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
+TextLabel_3.BorderSizePixel = 0
+TextLabel_3.Position = UDim2.new(1.14285755, 0, 0.00186872808, 0)
+TextLabel_3.Size = UDim2.new(0, 135, 0, 22)
+TextLabel_3.Font = Enum.Font.SourceSans
+TextLabel_3.Text = "Car"
+TextLabel_3.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_3.TextSize = 17
+
+HomeBox_5.Name = "HomeBox"
+HomeBox_5.Parent = HomeBox_3
+HomeBox_5.Active = true
+HomeBox_5.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
+HomeBox_5.BorderColor3 = Color3.new(0.211765, 0.211765, 0.211765)
+HomeBox_5.BorderSizePixel = 3
+HomeBox_5.Position = UDim2.new(1.10259497, 0, 0.454093426, 0)
+HomeBox_5.Size = UDim2.new(0, 147, 0, 26)
+
+TextLabel_4.Parent = HomeBox_3
+TextLabel_4.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
+TextLabel_4.BorderSizePixel = 0
+TextLabel_4.Position = UDim2.new(1.15735304, 0, 0.455811381, 0)
+TextLabel_4.Size = UDim2.new(0, 133, 0, 24)
+TextLabel_4.Font = Enum.Font.SourceSans
+TextLabel_4.Text = "Gun"
+TextLabel_4.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_4.TextSize = 17
+
+TextLabel_5.Parent = HomeBox_3
+TextLabel_5.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
+TextLabel_5.BorderSizePixel = 0
+TextLabel_5.Position = UDim2.new(-1.07142854, 0, -0.109856442, 0)
+TextLabel_5.Size = UDim2.new(0, 85, 0, 13)
+TextLabel_5.Font = Enum.Font.SourceSans
+TextLabel_5.Text = "By Sky Mods#7777"
+TextLabel_5.TextColor3 = Color3.new(0.658824, 0.658824, 0.658824)
+TextLabel_5.TextSize = 14
+
+TextLabel_6.Parent = HomeBox_3
+TextLabel_6.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
+TextLabel_6.BorderSizePixel = 0
+TextLabel_6.Size = UDim2.new(0, 152, 0, 25)
+TextLabel_6.Font = Enum.Font.SourceSans
+TextLabel_6.Text = "Other"
+TextLabel_6.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_6.TextSize = 17
+
+HomeBox_6.Name = "HomeBox"
+HomeBox_6.Parent = Main
+HomeBox_6.Active = true
+HomeBox_6.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
+HomeBox_6.BorderColor3 = Color3.new(0.211765, 0.211765, 0.211765)
+HomeBox_6.BorderSizePixel = 3
+HomeBox_6.Position = UDim2.new(0.0127277989, 0, 0.110215262, 0)
+HomeBox_6.Size = UDim2.new(0, 152, 0, 290)
+
+WalkSpeed.Name = "WalkSpeed"
+WalkSpeed.Parent = HomeBox_6
+WalkSpeed.BackgroundColor3 = Color3.new(0.184314, 0.184314, 0.184314)
+WalkSpeed.BorderColor3 = Color3.new(0.211765, 0.211765, 0.211765)
+WalkSpeed.Position = UDim2.new(0.0795802027, 0, 0.153509051, 0)
+WalkSpeed.Size = UDim2.new(0, 127, 0, 27)
+WalkSpeed.Font = Enum.Font.SourceSans
+WalkSpeed.Text = "WalkSpeed (V)"
+WalkSpeed.TextColor3 = Color3.new(1, 1, 1)
+WalkSpeed.TextSize = 17
+WalkSpeed.MouseButton1Down:connect(function()
+    local walkspeedplayer = game:GetService("Players").LocalPlayer
+    local walkspeedmouse = walkspeedplayer:GetMouse()
+   
+    local walkspeedenabled = false
+   
+    function V_walkspeed(key)
+        if (key == "V") then
+            if walkspeedenabled == false then
+                _G.WS = 100;
+                local Humanoid = game:GetService("Players").LocalPlayer.Character.Humanoid;
+                Humanoid:GetPropertyChangedSignal("WalkSpeed"):Connect(function()
+                Humanoid.WalkSpeed = _G.WS;
+                end)
+                Humanoid.WalkSpeed = _G.WS;
+               
+                walkspeedenabled = true
+            elseif walkspeedenabled == true then
+                _G.WS = 20;
+                local Humanoid = game:GetService("Players").LocalPlayer.Character.Humanoid;
+                Humanoid:GetPropertyChangedSignal("WalkSpeed"):Connect(function()
+                Humanoid.WalkSpeed = _G.WS;
+                end)
+                Humanoid.WalkSpeed = _G.WS;
+               
+                walkspeedenabled = false
+            end
+        end
+    end
+   
+    walkspeedmouse.KeyDown:connect(V_walkspeed)
+   
+end)
+
+GravityOFF.Name = " Gravity OFF"
+GravityOFF.Parent = HomeBox_6
+GravityOFF.BackgroundColor3 = Color3.new(0.184314, 0.184314, 0.184314)
+GravityOFF.BorderColor3 = Color3.new(0.211765, 0.211765, 0.211765)
+GravityOFF.Position = UDim2.new(0.0795802101, 0, 0.297420502, 0)
+GravityOFF.Size = UDim2.new(0, 127, 0, 27)
+GravityOFF.Font = Enum.Font.SourceSans
+GravityOFF.Text = " Gravity OFF"
+GravityOFF.TextColor3 = Color3.new(1, 1, 1)
+GravityOFF.TextSize = 17
+GravityOFF.MouseButton1Down:connect(function()
+    game.Workspace.Gravity = 35
+    GravityOFF.Visible = true
+    GravityON.Visible = true
+end)
+
+GravityON.Name = " Gravity ON"
+GravityON.Parent = HomeBox_6
+GravityON.BackgroundColor3 = Color3.new(0.184314, 0.184314, 0.184314)
+GravityON.BorderColor3 = Color3.new(0.211765, 0.211765, 0.211765)
+GravityON.Position = UDim2.new(0.0795802101, 0, 0.452402025, 0)
+GravityON.Size = UDim2.new(0, 127, 0, 27)
+GravityON.Font = Enum.Font.SourceSans
+GravityON.Text = " Gravity ON"
+GravityON.TextColor3 = Color3.new(1, 1, 1)
+GravityON.TextSize = 17
+GravityON.MouseButton1Down:connect(function()
+    game.Workspace.Gravity = 196.2
+    GravityOFF.Visible = true
+    GravityON.Visible = true
+end)
+
+JumpPower.Name = "JumpPower"
+JumpPower.Parent = HomeBox_6
+JumpPower.BackgroundColor3 = Color3.new(0.184314, 0.184314, 0.184314)
+JumpPower.BorderColor3 = Color3.new(0.211765, 0.211765, 0.211765)
+JumpPower.Position = UDim2.new(0.0795802101, 0, 0.600672185, 0)
+JumpPower.Size = UDim2.new(0, 127, 0, 27)
+JumpPower.Font = Enum.Font.SourceSans
+JumpPower.Text = "Jump Power"
+JumpPower.TextColor3 = Color3.new(1, 1, 1)
+JumpPower.TextSize = 17
+JumpPower.MouseButton1Down:connect(function()
+    game:GetService("UserInputService").JumpRequest:connect(function()
+        game:GetService"Players".LocalPlayer.Character:FindFirstChildOfClass'Humanoid':ChangeState("Jumping")      
+    end)
+    end)
+
+NoClip.Name = "NoClip"
+NoClip.Parent = HomeBox_6
+NoClip.BackgroundColor3 = Color3.new(0.184314, 0.184314, 0.184314)
+NoClip.BorderColor3 = Color3.new(0.211765, 0.211765, 0.211765)
+NoClip.Position = UDim2.new(0.0795802101, 0, 0.744583607, 0)
+NoClip.Size = UDim2.new(0, 127, 0, 27)
+NoClip.Font = Enum.Font.SourceSans
+NoClip.Text = "NoClip (N)"
+NoClip.TextColor3 = Color3.new(1, 1, 1)
+NoClip.TextSize = 17
+
+GodMode.Name = "GodMode"
+GodMode.Parent = HomeBox_6
+GodMode.BackgroundColor3 = Color3.new(0.184314, 0.184314, 0.184314)
+GodMode.BorderColor3 = Color3.new(0.211765, 0.211765, 0.211765)
+GodMode.Position = UDim2.new(0.0795802101, 0, 0.888495088, 0)
+GodMode.Size = UDim2.new(0, 127, 0, 24)
+GodMode.Font = Enum.Font.SourceSans
+GodMode.Text = "Purple Color"
+GodMode.TextColor3 = Color3.new(1, 1, 1)
+GodMode.TextSize = 17
+
+GodMode_2.Name = "GodMode"
+GodMode_2.Parent = HomeBox_6
+GodMode_2.BackgroundColor3 = Color3.new(0.184314, 0.184314, 0.184314)
+GodMode_2.BorderColor3 = Color3.new(0.211765, 0.211765, 0.211765)
+GodMode_2.Position = UDim2.new(0.0795802101, 0, 0.888495088, 0)
+GodMode_2.Size = UDim2.new(0, 127, 0, 24)
+GodMode_2.Font = Enum.Font.SourceSans
+GodMode_2.Text = "God Mode"
+GodMode_2.TextColor3 = Color3.new(1, 1, 1)
+GodMode_2.TextSize = 17
+GodMode.MouseButton1Down:connect(function()
+    game.Players.LocalPlayer.Character.Humanoid.Name = 1
+local l = game.Players.LocalPlayer.Character["1"]:Clone()
+l.Parent = game.Players.LocalPlayer.Character
+l.Name = "Humanoid"
+wait(0.1)
+game.Players.LocalPlayer.Character["1"]:Destroy()
+game.Workspace.CurrentCamera.CameraSubject = game.Players.LocalPlayer.Character
+game.Players.LocalPlayer.Character.Animate.Disabled = true
+wait(0.1)
+game.Players.LocalPlayer.Character.Animate.Disabled = false
+game.Players.LocalPlayer.Character.Humanoid.DisplayDistanceType = "None"
+end)
+
+SwatShield.Name = "SwatShield"
+SwatShield.Parent = HomeBox_6
+SwatShield.BackgroundColor3 = Color3.new(0.184314, 0.184314, 0.184314)
+SwatShield.BorderColor3 = Color3.new(0.211765, 0.211765, 0.211765)
+SwatShield.Position = UDim2.new(1.17826438, 0, 0.153509051, 0)
+SwatShield.Size = UDim2.new(0, 127, 0, 27)
+SwatShield.Font = Enum.Font.SourceSans
+SwatShield.Text = "Swat Shield"
+SwatShield.TextColor3 = Color3.new(1, 1, 1)
+SwatShield.TextSize = 17
+local hit = game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.Position + Vector3.new(0,0,-3) a = Instance.new('Part', workspace) a.Anchored = true a.Position = game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.Position + Vector3.new(0,0,-3) a.CanCollide = false for i, v in pairs(game:GetService('Workspace').Givers:GetChildren()) do if v.Name == 'Station' then for a, b in pairs(v:GetChildren()) do if b:IsA('StringValue') then if b.Value == 'ShieldSWAT' then v.CFrame = CFrame.new(hit) end end end end end
+
+ClickDelete.Name = "ClickDelete"
+ClickDelete.Parent = HomeBox_6
+ClickDelete.BackgroundColor3 = Color3.new(0.184314, 0.184314, 0.184314)
+ClickDelete.BorderColor3 = Color3.new(0.211765, 0.211765, 0.211765)
+ClickDelete.Position = UDim2.new(1.17826438, 0, 0.297420502, 0)
+ClickDelete.Size = UDim2.new(0, 127, 0, 27)
+ClickDelete.Font = Enum.Font.SourceSans
+ClickDelete.Text = "Alt+Click Delete"
+ClickDelete.TextColor3 = Color3.new(1, 1, 1)
+ClickDelete.TextSize = 17
+local player = game:GetService("Players").LocalPlayer
+local mouse = player:GetMouse()
+local altDown = false
+
+mouse.Button1Down:Connect(function()
+if mouse.Target then
+if altDown == true then
+mouse.Target:Destroy()
+end
+end
+end)
+
+Glider.Name = "Glider"
+Glider.Parent = HomeBox_6
+Glider.BackgroundColor3 = Color3.new(0.184314, 0.184314, 0.184314)
+Glider.BorderColor3 = Color3.new(0.211765, 0.211765, 0.211765)
+Glider.Position = UDim2.new(1.17826438, 0, 0.452402025, 0)
+Glider.Size = UDim2.new(0, 127, 0, 27)
+Glider.Font = Enum.Font.SourceSans
+Glider.Text = "Glider"
+Glider.TextColor3 = Color3.new(1, 1, 1)
+Glider.TextSize = 17
+local hit = game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.Position + Vector3.new(0,0,-3) a = Instance.new('Part', workspace) a.Anchored = true a.Position = game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.Position + Vector3.new(0,0,-3) a.CanCollide = false for i, v in pairs(game:GetService('Workspace').Givers:GetChildren()) do if v.Name == 'Glider' then for a, b in pairs(v:GetChildren()) do if b:IsA('StringValue') then if b.Value == 'Glider' then v.CFrame = CFrame.new(hit) end end end end end
+
+RainbowPath.Name = "RainbowPath"
+RainbowPath.Parent = HomeBox_6
+RainbowPath.BackgroundColor3 = Color3.new(0.184314, 0.184314, 0.184314)
+RainbowPath.BorderColor3 = Color3.new(0.211765, 0.211765, 0.211765)
+RainbowPath.Position = UDim2.new(1.16510653, 0, 0.600672185, 0)
+RainbowPath.Size = UDim2.new(0, 127, 0, 27)
+RainbowPath.Font = Enum.Font.SourceSans
+RainbowPath.Text = "Rainbow Path (G)"
+RainbowPath.TextColor3 = Color3.new(1, 1, 1)
+RainbowPath.TextSize = 17
+local player = game:GetService('Players').LocalPlayer local mouse = player:GetMouse() mouse.KeyDown:connect(function(key) if key:lower() == 'g' or key:upper() == 'G' then for i = 1,6 do wait(0.085) x = Instance.new('Part',game:GetService('Workspace')) x.Size = Vector3.new(10,0.2,10) x.TopSurface = 'Smooth' x.Anchored = true x.BrickColor = BrickColor.random()  x.CFrame = CFrame.new(player.Character.UpperTorso.Position) + Vector3.new(0,-3,0) game.Debris:AddItem(x, 3) end end end)
+
+NoDoors.Name = "NoDoors\n"
+NoDoors.Parent = HomeBox_6
+NoDoors.BackgroundColor3 = Color3.new(0.184314, 0.184314, 0.184314)
+NoDoors.BorderColor3 = Color3.new(0.211765, 0.211765, 0.211765)
+NoDoors.Position = UDim2.new(1.17826438, 0, 0.744583607, 0)
+NoDoors.Size = UDim2.new(0, 127, 0, 27)
+NoDoors.Font = Enum.Font.SourceSans
+NoDoors.Text = "No Doors"
+NoDoors.TextColor3 = Color3.new(1, 1, 1)
+NoDoors.TextSize = 17
+workspace.Doors:Destroy()
+
+InfDonuts.Name = "InfDonuts"
+InfDonuts.Parent = HomeBox_6
+InfDonuts.BackgroundColor3 = Color3.new(0.184314, 0.184314, 0.184314)
+InfDonuts.BorderColor3 = Color3.new(0.211765, 0.211765, 0.211765)
+InfDonuts.Position = UDim2.new(1.17826426, 0, 0.888495088, 0)
+InfDonuts.Size = UDim2.new(0, 127, 0, 24)
+InfDonuts.Font = Enum.Font.SourceSans
+InfDonuts.Text = "Inf Donuts"
+InfDonuts.TextColor3 = Color3.new(1, 1, 1)
+InfDonuts.TextSize = 17
+while wait(2) do game:GetService('Workspace').TouchTrigger.Donut.Position = game:GetService('Players').LocalPlayer.Character.Head.Position end
+
+Shotgun.Name = "Shotgun"
+Shotgun.Parent = HomeBox_6
+Shotgun.BackgroundColor3 = Color3.new(0.184314, 0.184314, 0.184314)
+Shotgun.BorderColor3 = Color3.new(0.211765, 0.211765, 0.211765)
+Shotgun.Position = UDim2.new(2.27036977, 0, 0.744583607, 0)
+Shotgun.Size = UDim2.new(0, 127, 0, 27)
+Shotgun.Font = Enum.Font.SourceSans
+Shotgun.Text = "Shotgun"
+Shotgun.TextColor3 = Color3.new(1, 1, 1)
+Shotgun.TextSize = 17
+local hit = game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.Position + Vector3.new(0,0,-3) a = Instance.new('Part', workspace) a.Anchored = true a.Position = game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.Position + Vector3.new(0,0,-3) a.CanCollide = false for i, v in pairs(game:GetService('Workspace').Givers:GetChildren()) do if v.Name == 'Station' then for a, b in pairs(v:GetChildren()) do if b:IsA('StringValue') then if b.Value == 'Shotgun' then v.CFrame = CFrame.new(hit) end end end end end
+
+CarFly.Name = "CarFly"
+CarFly.Parent = HomeBox_6
+CarFly.BackgroundColor3 = Color3.new(0.184314, 0.184314, 0.184314)
+CarFly.BorderColor3 = Color3.new(0.211765, 0.211765, 0.211765)
+CarFly.Position = UDim2.new(2.27036977, 0, 0.153509051, 0)
+CarFly.Size = UDim2.new(0, 127, 0, 27)
+CarFly.Font = Enum.Font.SourceSans
+CarFly.Text = "Car Fly"
+CarFly.TextColor3 = Color3.new(1, 1, 1)
+CarFly.TextSize = 17
+CarFly.MouseButton1Down:connect(function()
+    local plr = game:GetService("Players").LocalPlayer
+local m = plr:GetMouse()
+m.KeyDown:connect(function(k)
+if k:byte() == 114 then
+plrh = game:GetService'Players'.LocalPlayer.Character:FindFirstChildOfClass'Humanoid'
+plrh:ChangeState('Jumping')
+wait()
+plrh:ChangeState('Seated')
+end
+end)
+end)
+
+InfiniteNitro.Name = "InfiniteNitro"
+InfiniteNitro.Parent = HomeBox_6
+InfiniteNitro.BackgroundColor3 = Color3.new(0.184314, 0.184314, 0.184314)
+InfiniteNitro.BorderColor3 = Color3.new(0.211765, 0.211765, 0.211765)
+InfiniteNitro.Position = UDim2.new(2.27036953, 0, 0.297420502, 0)
+InfiniteNitro.Size = UDim2.new(0, 127, 0, 27)
+InfiniteNitro.Font = Enum.Font.SourceSans
+InfiniteNitro.Text = "Inf.Nitro"
+InfiniteNitro.TextColor3 = Color3.new(1, 1, 1)
+InfiniteNitro.TextSize = 17
+InfiniteNitro.MouseButton1Down:connect(function()
+    game:GetService('Players').LocalPlayer.PlayerGui.MainGui.Nitro.Name = "6969696969"
+    game:GetService('Players').LocalPlayer.PlayerGui.ProductGui.Nitro:ClearAllChildren()
+end)
+
+AK47.Name = "AK47"
+AK47.Parent = HomeBox_6
+AK47.BackgroundColor3 = Color3.new(0.184314, 0.184314, 0.184314)
+AK47.BorderColor3 = Color3.new(0.211765, 0.211765, 0.211765)
+AK47.Position = UDim2.new(2.27036977, 0, 0.888495088, 0)
+AK47.Size = UDim2.new(0, 127, 0, 24)
+AK47.Font = Enum.Font.SourceSans
+AK47.Text = "AK47"
+AK47.TextColor3 = Color3.new(1, 1, 1)
+AK47.TextSize = 17
+local hit = game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.Position + Vector3.new(0,0,-3) a = Instance.new('Part', workspace) a.Anchored = true a.Position = game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.Position + Vector3.new(0,0,-3) a.CanCollide = false for i, v in pairs(game:GetService('Workspace').Givers:GetChildren()) do if v.Name == 'ShootingRange' then for a, b in pairs(v:GetChildren()) do if b:IsA('StringValue') then if b.Value == 'AK47' then v.CFrame = CFrame.new(hit) end end end end end
+
+Pistol.Name = "Pistol"
+Pistol.Parent = HomeBox_6
+Pistol.BackgroundColor3 = Color3.new(0.184314, 0.184314, 0.184314)
+Pistol.BorderColor3 = Color3.new(0.211765, 0.211765, 0.211765)
+Pistol.Position = UDim2.new(2.27036977, 0, 0.600672185, 0)
+Pistol.Size = UDim2.new(0, 127, 0, 27)
+Pistol.Font = Enum.Font.SourceSans
+Pistol.Text = "Pistol"
+Pistol.TextColor3 = Color3.new(1, 1, 1)
+Pistol.TextSize = 17
+local hit = game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.Position + Vector3.new(0,0,-3) a = Instance.new('Part', workspace) a.Anchored = true a.Position = game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.Position + Vector3.new(0,0,-3) a.CanCollide = false for i, v in pairs(game:GetService('Workspace').Givers:GetChildren()) do if v.Name == 'Station' then for a, b in pairs(v:GetChildren()) do if b:IsA('StringValue') then if b.Value == 'Pistol' then v.CFrame = CFrame.new(hit) end end end end end
+
+HomeBox_7.Name = "HomeBox"
+HomeBox_7.Parent = HomeBox_6
+HomeBox_7.Active = true
+HomeBox_7.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
+HomeBox_7.BorderColor3 = Color3.new(0.211765, 0.211765, 0.211765)
+HomeBox_7.BorderSizePixel = 3
+HomeBox_7.Position = UDim2.new(0, 0, 0.0023490116, 0)
+HomeBox_7.Size = UDim2.new(0, 152, 0, 25)
+
+TextLabel_7.Parent = HomeBox_6
+TextLabel_7.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
+TextLabel_7.BorderSizePixel = 0
+TextLabel_7.Position = UDim2.new(0.0335275754, 0, 0.0068965517, 0)
+TextLabel_7.Size = UDim2.new(0, 145, 0, 22)
+TextLabel_7.Font = Enum.Font.SourceSans
+TextLabel_7.Text = "Local Player"
+TextLabel_7.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_7.TextSize = 17
+
+HomeBox_8.Name = "HomeBox"
+HomeBox_8.Parent = Main
+HomeBox_8.Active = true
+HomeBox_8.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
+HomeBox_8.BorderColor3 = Color3.new(0.211765, 0.211765, 0.211765)
+HomeBox_8.BorderSizePixel = 3
+HomeBox_8.Position = UDim2.new(0.762660027, 0, 0.113165095, 0)
+HomeBox_8.Size = UDim2.new(0, 152, 0, 290)
+
+JewelryIn.Name = "JewelryIn"
+JewelryIn.Parent = HomeBox_8
+JewelryIn.BackgroundColor3 = Color3.new(0.184314, 0.184314, 0.184314)
+JewelryIn.BorderColor3 = Color3.new(0.211765, 0.211765, 0.211765)
+JewelryIn.Position = UDim2.new(0.0927380994, 0, 0.150060773, 0)
+JewelryIn.Size = UDim2.new(0, 127, 0, 27)
+JewelryIn.Font = Enum.Font.SourceSans
+JewelryIn.Text = "Jewelry In"
+JewelryIn.TextColor3 = Color3.new(1, 1, 1)
+JewelryIn.TextSize = 17
+JewelryIn.MouseButton1Down:connect(function()
+    for i=1,32 do
+        wait(.08)
+        game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(133.300705, 17.9375954, 1316.42407) + Vector3.new(1,0,0)
+    end
+end)
+
+JewelryTop.Name = "JewelryTop"
+JewelryTop.Parent = HomeBox_8
+JewelryTop.BackgroundColor3 = Color3.new(0.184314, 0.184314, 0.184314)
+JewelryTop.BorderColor3 = Color3.new(0.211765, 0.211765, 0.211765)
+JewelryTop.Position = UDim2.new(0.0927381068, 0, 0.293972224, 0)
+JewelryTop.Size = UDim2.new(0, 127, 0, 27)
+JewelryTop.Font = Enum.Font.SourceSans
+JewelryTop.Text = "Jewelry Top"
+JewelryTop.TextColor3 = Color3.new(1, 1, 1)
+JewelryTop.TextSize = 17
+JewelryTop.MouseButton1Down:connect(function()
+    for i=1,32 do
+        wait(.08)
+        game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(101.211128, 98.6576996, 1310.54175) + Vector3.new(1,0,0)
+    end
+end)
+
+MuseumIn.Name = "MuseumIn"
+MuseumIn.Parent = HomeBox_8
+MuseumIn.BackgroundColor3 = Color3.new(0.184314, 0.184314, 0.184314)
+MuseumIn.BorderColor3 = Color3.new(0.211765, 0.211765, 0.211765)
+MuseumIn.Position = UDim2.new(0.0927381068, 0, 0.448953748, 0)
+MuseumIn.Size = UDim2.new(0, 127, 0, 27)
+MuseumIn.Font = Enum.Font.SourceSans
+MuseumIn.Text = "Museum In"
+MuseumIn.TextColor3 = Color3.new(1, 1, 1)
+MuseumIn.TextSize = 17
+MuseumIn.MouseButton1Down:connect(function()
+    for i=1,32 do
+        wait(.08)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1063.02, 117.562, 1218.757) + Vector3.new(1,0,0)
+    end
+end)
+
+MuseumOut.Name = "MuseumOut"
+MuseumOut.Parent = HomeBox_8
+MuseumOut.BackgroundColor3 = Color3.new(0.184314, 0.184314, 0.184314)
+MuseumOut.BorderColor3 = Color3.new(0.211765, 0.211765, 0.211765)
+MuseumOut.Position = UDim2.new(0.0927381068, 0, 0.597223938, 0)
+MuseumOut.Size = UDim2.new(0, 127, 0, 27)
+MuseumOut.Font = Enum.Font.SourceSans
+MuseumOut.Text = "Museum Out"
+MuseumOut.TextColor3 = Color3.new(1, 1, 1)
+MuseumOut.TextSize = 17
+MuseumOut.MouseButton1Down:connect(function()
+    for i=1,32 do
+        wait(.08)
+        game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1108.02576, 101.16066, 1295.74146) + Vector3.new(1,0,0)
+    end
+end)
+
+HomeBox_9.Name = "HomeBox"
+HomeBox_9.Parent = HomeBox_8
+HomeBox_9.Active = true
+HomeBox_9.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
+HomeBox_9.BorderColor3 = Color3.new(0.211765, 0.211765, 0.211765)
+HomeBox_9.BorderSizePixel = 3
+HomeBox_9.Position = UDim2.new(-0.00331557426, 0, -0.00107881322, 0)
+HomeBox_9.Size = UDim2.new(0, 152, 0, 26)
+
+BankFront.Name = "BankFront"
+BankFront.Parent = HomeBox_8
+BankFront.BackgroundColor3 = Color3.new(0.184314, 0.184314, 0.184314)
+BankFront.BorderColor3 = Color3.new(0.211765, 0.211765, 0.211765)
+BankFront.Position = UDim2.new(0.0927381068, 0, 0.741135359, 0)
+BankFront.Size = UDim2.new(0, 127, 0, 27)
+BankFront.Font = Enum.Font.SourceSans
+BankFront.Text = "Bank Front"
+BankFront.TextColor3 = Color3.new(1, 1, 1)
+BankFront.TextSize = 17
+BankFront.MouseButton1Down:connect(function()
+    for i=1,32 do
+        wait(.08)
+        game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(9.92591476, 17.8639755, 786.788147) + Vector3.new(1,0,0)
+    end
+end)
+
+BankVault.Name = "BankVault"
+BankVault.Parent = HomeBox_8
+BankVault.BackgroundColor3 = Color3.new(0.184314, 0.184314, 0.184314)
+BankVault.BorderColor3 = Color3.new(0.211765, 0.211765, 0.211765)
+BankVault.Position = UDim2.new(0.0927381068, 0, 0.88504684, 0)
+BankVault.Size = UDim2.new(0, 127, 0, 24)
+BankVault.Font = Enum.Font.SourceSans
+BankVault.Text = "Bank Vault"
+BankVault.TextColor3 = Color3.new(1, 1, 1)
+BankVault.TextSize = 17
+BankVault.MouseButton1Down:connect(function()
+    for i=1,32 do
+        wait(.08)
+        game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(18.3854294, 0.765628457, 815.506348) + Vector3.new(1,0,0)
+    end
+end)
+
+TextLabel_8.Parent = HomeBox_8
+TextLabel_8.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
+TextLabel_8.BorderSizePixel = 0
+TextLabel_8.Position = UDim2.new(0.0335275754, 0, 0.00346869114, 0)
+TextLabel_8.Size = UDim2.new(0, 145, 0, 22)
+TextLabel_8.Font = Enum.Font.SourceSans
+TextLabel_8.Text = "Teleports"
+TextLabel_8.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_8.TextSize = 17
